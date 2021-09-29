@@ -1,3 +1,10 @@
+# GDPRとは？
+
+EU圏に在住する人の個人データ（名前、Eメールなど）の保護に関する国際法で、違反すると罰金が課せられるらしい
+
+Admobの参考ページ：[EU ユーザーからの同意の取得](https://developers.google.com/admob/unity/eu-consent?hl=ja)
+
+
 # Gdpr.cs
 
 ## やってること
@@ -77,4 +84,4 @@ else
     bannerView.LoadAd (new AdRequest.Builder ().AddExtra ("npa", "1").Build ());
 }
 ```
-参考ページ：[EU ユーザーからの同意の取得 ](https://developers.google.com/admob/unity/eu-consent?hl=ja)
+参考ページ：[EU ユーザーからの同意の取得 ](https://developers.google.com/admob/unity/eu-consent?hl=ja#forward_consent_to_the_google_mobile_ads_sdk)
