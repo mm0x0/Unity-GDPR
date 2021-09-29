@@ -51,3 +51,20 @@ public class Main : MonoBehaviour
     }
 }
 ```
+
+### Admobの実装
+
+```
+// ユーザーが同意したかを取得して
+if (gdpr.IsUserConsentGdpr ()
+{
+    // 同意したときは普通に表示
+    bannerView.LoadAd (new AdRequest.Builder ().Build ());
+}
+else
+{
+    // 同意してないときはパーソナライズされてない広告を表示
+    bannerView.LoadAd (new AdRequest.Builder ().AddExtra ("npa", "1").Build ());
+}
+```
+参考ページ：[EU ユーザーからの同意の取得 ](https://developers.google.com/admob/unity/eu-consent?hl=ja)
