@@ -26,7 +26,7 @@ PlayerPrefsに"GDPRStatus"のキーで同意状態を保存しています
 | IsUserAnswerdGdpr () | ユーザーが回答をしたか取得|
 | IsUserConsentGdpr () | ユーザーがGDPRに同意したか取得|
 
-### 同意フォームの作成例
+### 同意フォームの作成
 
 1. YesボタンとNoボタンのあるフォームを作成する。
 ![1](https://user-images.githubusercontent.com/26345138/135223979-29558d12-4731-47a7-b2a5-7017c2d1fc7a.png)
