@@ -1,3 +1,12 @@
+## やってること
+PlayerPrefsに"GDPRStatus"のキーで同意状態を保存しています
+
+| 値 | 内容 |
+----|---- 
+| UNANSWERD | 未回答 |
+| CONSENT | GDPRに同意した |
+| NOT_CONSENT | GDPRに同意しなかった|
+
 ## 使い方
 
 ### 同意フォームの作成例
