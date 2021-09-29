@@ -1,3 +1,5 @@
+# Gdpr.cs
+
 ## やってること
 PlayerPrefsに"GDPRStatus"のキーで同意状態を保存しています
 
@@ -8,6 +10,14 @@ PlayerPrefsに"GDPRStatus"のキーで同意状態を保存しています
 | NOT_CONSENT | GDPRに同意しなかった|
 
 ## 使い方
+
+### メソッド
+| メソッド | 内容 |
+----|---- 
+| UserConsentGdpr () | YESに回答する |
+| UserNotConsentGdpr () | NOに回答する |
+| IsUserAnswerdGdpr () | ユーザーが回答をしたか取得|
+| IsUserConsentGdpr () | ユーザーがGDPRに同意したか取得|
 
 ### 同意フォームの作成例
 
