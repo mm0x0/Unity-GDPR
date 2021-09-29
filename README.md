@@ -2,7 +2,7 @@
 
 EU圏に在住する人の個人データ（名前、Eメールなど）の保護に関する国際法で、違反すると罰金が課せられるらしい
 
-参考ページ：[ヨーロッパ(EU)にアプリを配信する際に必要なGDPR対策を具体的に解説](https://note.tatsuo.online/n/n799566a75b15#qKEXG)
+参考ページ：[ヨーロッパ(EU)にアプリを配信する際に必要なGDPR対策を具体的に解説](https://note.tatsuo.online/n/n799566a75b15)
 
 Admobの参考ページ：[EU ユーザーからの同意の取得](https://developers.google.com/admob/unity/eu-consent?hl=ja)
 
