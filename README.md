@@ -30,11 +30,8 @@ using UnityEngine;
 
 public class Main : MonoBehaviour
 {
-    [SerializeField]
-    Gdpr gdpr;
-    
-    [SerializeField]
-    GameObject gdprForm;
+    [SerializeField] Gdpr gdpr;
+    [SerializeField] GameObject gdprForm;
 
     void Awake ()
     {
@@ -46,7 +43,7 @@ public class Main : MonoBehaviour
     {
         // 必要なら表示する国を判別
     	if (Application.systemLanguage == SystemLanguage.Japanese)
-                return;
+            return;
 
         // GDPRダイアログを表示（未回答のとき）
         if (!gdpr.IsUserAnswerdGdpr ())
